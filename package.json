@@ -1,0 +1,31 @@
+{
+  "name": "ember-cli-deploy-frost-pack",
+  "version": "1.0.0",
+  "description": "The default blueprint for ember-cli addons.",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "ember try:testall"
+  },
+  "repository": "",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "Seena Rowhani",
+  "license": "MIT",
+  "keywords": [
+    "ember-addon",
+    "ember-cli-deploy-plugin-pack"
+  ],
+  "dependencies": {
+    "ember-cli-deploy-build": "0.1.1",
+    "ember-cli-deploy-gh-pages": "file:../ember-cli-deploy-gh-pages",
+    "ember-cli-deploy-slack": "0.1.0"
+  },
+  "ember-addon": {
+  }
+}
