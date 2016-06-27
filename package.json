@@ -27,5 +27,6 @@
     "ember-cli-deploy-slack": "0.1.0"
   },
   "ember-addon": {
+    "defaultBlueprint": "deploy-frost-pack"
   }
 }
